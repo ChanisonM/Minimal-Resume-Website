@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal Resume Website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- remix icon cnd -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-container">
+        <div class="content">
+          <div class="title">
+            <h1 id="myCaption"></h1>
+          </div>
+          <div class="skils">
+            <div class="skil">
+              <p><span><span id="experience"></span></p>
+            </div>
+            <div class="skil">
+              <p><span id="handled_project_github"></span></p>
+            </div>
+            <div class="skil">
+              <p><span id="clients"></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="profile_wrapper">
+          <div class="menu_wrapper">
+            <h3 id="infomation_title"></h3>
+            <i class="ri-menu-3-line"></i>
+          </div>
+          <div class="profile">
+            <div class="hero-imgage">
+              <img src="images/profile.jpg"/>
+            </div>
+
+            <div class="hero-content">
+              <div class="name">
+                <p>Firstname :</p>
+                <h4 id="fristName"></h4>
+              </div>
+              <div class="name">
+                <p>Lastname :</p>
+                <h4 id="lastName"></h4>
+              </div>
+              <div class="name">
+                <p>Nickname :</p>
+                <h4 id="nickName"></h4>
+              </div>
+              <div class="name">
+                <p>Age :</p>
+                <h4 id="age"></h4>
+              </div>
+              <div class="name">
+                <p>Sex :</p>
+                <h4 id="sex"></h4>
+              </div>
+              <div class="place">
+                <p>Based In :</p>
+                <h4 id="based_in"></h4>
+              </div>
+              <div class="social">
+                    <i class="ri-facebook-circle-line" id="social_facebook"></i>
+                    <i class="ri-github-fill" id="social_ig"></i>
+                    <i class="ri-instagram-fill" id="social_github"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttom_container">
+        <div class="portfolio">
+          <div class="portfolio_title">
+            <h4>Portfolio</h4>
+            <span id="seeAll">See All</span>
+          </div>
+          <div class="projects">
+            <div class="project" id="project_1">
+                    <img src="/images/project_1.png"/>
+            </div>
+            <div class="project" id="project_2">
+                <a href="">
+                    <img src="/images/project_2.png"/>
+                </a>
+            </div>
+            <div class="project" id="project_3">
+                <a href="" target="_blank">
+                    <img src="/images/project_3.png"/>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
